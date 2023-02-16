@@ -1,29 +1,118 @@
 <!DOCTYPE html>
-<html lang="en-ca">
-  <head>
-    <!-- Set the page title -->
-    <title>Assignment 02</title>
+<html>
+<head>
 
-    <!-- Set the charset we're using to UTF-8 -->
-    <meta charset="UTF-8" />
+      <!-- Set the page title -->
+      <title>Website Landing Page</title>
 
-    <!-- Set the screens default zoom / scale to 1 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <!-- Specifies the document mode for Internet Explorer -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!-- Set the charset we're using to UTF-8 -->
+      <meta charset="UTF-8" />
+  
+      <!-- Set the screens default zoom / scale to 1 -->
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      
+      <!-- Specifies the document mode for Internet Explorer -->
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+      <!-- We are using a CSS Reset file to standardize browser default css -->
+      <link rel="stylesheet" href="reset.css" />
+  
+      <!-- This is where all of our awesome CSS code goes -->
+      <link rel="stylesheet" href="style.css" />
 
-    <!-- We are using a CSS Reset file to standardize browser default css -->
-    <link rel="stylesheet" href="reset.css" />
 
-    <!-- This is where all of our awesome CSS code goes -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!--
 
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+ 
+</head>
+<body>
+  <div id="navbar">
+    <a href="home"><img src="https://pngimg.com/uploads/ufo/ufo_PNG71660.png" alt="My Logo" style="height: 22px;"></a>
+    <a href="#about">About</a>
+    <a href="#pre-order">Pre-Order</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div id='large-image'>
+    <img src="https://pngimg.com/uploads/ufo/ufo_PNG71660.png" alt="Large Image" width='25%' height='25%'>
+  </div>
+  <h1><span style="font-size: 65px">The </span><span style="font-size: 100px">U</span>niversal <span style="font-size: 100px">F</span>ighting <span style="font-size: 100px">O</span>rganization</h1>
+  <h2>The 1v1 fighting game for !@#$%^&*</h2>\
 
-    -->
-  </body>
+  <div class="container">
+    <img src="https://www.freepnglogos.com/uploads/alien-png/alien-fallout-the-vault-fallout-wiki-everything-25.png" alt="First Image" style="height: 500px;">
+    <button class="preorder-button">Preorder Now</button>
+    <img src="https://www.freepnglogos.com/uploads/alien-png/alien-fallout-the-vault-fallout-wiki-everything-25.png" alt="Second Image" class="flip-horizontal" style="height: 500px;">
+  </div>
+  
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, velit vel malesuada dictum, velit velit congue metus, in congue magna ipsum a neque. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, velit vel malesuada dictum, velit velit congue metus, in congue magna ipsum a neque. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, velit vel malesuada dictum, velit velit congue metus, in congue magna ipsum a neque. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, velit vel malesuada dictum, velit velit congue metus, in congue magna ipsum a neque.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, velit vel malesuada dictum, velit velit congue metus, in congue magna ipsum a neque.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, velit vel malesuada dictum, velit velit congue metus, in congue magna ipsum a neque.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, velit vel malesuada dictum, velit velit congue metus, in congue magna ipsum a neque.</p>
+  </div>
+  <div class="subpanel-container">
+    <div class="subpanel">
+      <p>Subpanel 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, velit vel malesuada dictum, velit velit congue metus, in congue magna ipsum a neque.</p>
+    </div>
+    <div class="subpanel">
+      <p>Subpanel 2: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, velit vel malesuada dictum, velit velit congue metus, in congue magna ipsum a neque.</p>
+    </div>
+    <div class="subpanel">
+      <p>Subpanel 3: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, velit vel malesuada dictum, velit velit congue metus, in congue magna ipsum a neque.</p>
+    </div>
+    <div class="subpanel">
+      <p>Subpanel 4: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, velit vel malesuada dictum, velit velit congue metus, in congue magna ipsum a neque.</p>
+    </div>
+  </div>
+  <div class="panel">
+    <table>
+        <tr>
+            <th style="padding: 10px">Developer</th>
+            <th style="padding: 10px">Developer</th>
+            <th style="padding: 10px">Developer</th>
+            <th style="padding: 10px">Developer</th>
+            <th style="padding: 10px">Developer</th>
+            <th style="padding: 10px">Developer</th>
+        </tr>
+        <tr>
+            <td>Data 1</td>
+            <td>Data 3</td>
+            <td>Data 5</td>
+            <td>Data 7</td>
+            <td>Data 9</td>
+            <td>Data 11</td>
+        </tr>
+        <tr>
+            <td>Data 2</td>
+            <td>Data 4</td>
+            <td>Data 6</td>
+            <td>Data 8</td>
+            <td>Data 10</td>
+            <td>Data 12</td>
+        </tr>
+    </table>
+</div>
+<div>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required style="width: 100%;">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required style="width: 100%;">
+    <label for="message">Message:</label>
+    <input type="text" id="message" name="message" placeholder="Enter your message" required style="width: 100%;">
+    <input type="submit" value="Submit" class="submit-button">
+  </form>
+</div>
+<div>
+  <footer style="background-color: black; color: lightgreen; padding: 10px; text-align: center;">
+    <img src="https://pngimg.com/uploads/ufo/ufo_PNG71660.png" alt="Your Logo" style="height: 50px;">
+    <br>
+    &copy; 2023 The U.F.O.
+  </footer>
+</div>
+</body>
 </html>
+
+

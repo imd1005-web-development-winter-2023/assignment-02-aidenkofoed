@@ -1,3 +1,151 @@
-/*
-  CSS File
-*/
+
+    /* Add styles for the navigation bar, title, subtitle, and informational panels */
+    /* Navigation Bar */
+    #navbar {
+      background-color: black;
+      overflow: hidden;
+      /* border: 2px solid lightgreen; */
+    }
+    #navbar a {
+      float: left;
+      color: lightgreen;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 25px;
+      font-family: 'Courier New', monospace;
+    }
+    #navbar a:hover {
+      background-color: lightgreen;
+      color: black;
+    }
+    /* Center Image */
+    #large-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px; /* adjust as needed */
+    }
+    /* Title and Subtitle */
+    /* Title */
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        color: lightgreen;
+        font-family: 'Courier New', monospace;
+        font-weight: bold;
+      }
+    h2 {
+      text-align: center;
+      font-size: 30px;
+      color: lightgreen;
+      font-family: 'Courier New', monospace;
+    }
+    /* Informational Panels */
+    .panel {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      padding: 20px;
+      padding-left: 50px;
+      padding-right: 50px;
+      margin: 20px;
+      color: lightgreen;
+      font-family: 'Courier New', monospace;
+      /* border: 2px solid lightgreen; */
+    }
+    .subpanel-container {
+      display: flex;
+      justify-content: space-between;
+    }
+    .subpanel {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      padding: 20px;
+      padding-left: 50px;
+      padding-right: 50px;
+      margin: 20px;
+      color: lightgreen;
+      font-family: 'Courier New', monospace;
+      /* border: 2px solid lightgreen; */
+    }
+    /* General Body Style */
+    body {
+      background-image: url('https://www.nasa.gov/sites/default/files/thumbnails/image/hubble_friday_04012016.jpg');
+        background-size: cover;
+        color: lightgreen;
+        font-size: 20px;
+    }
+    td {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+    form {
+      background-color: black;
+      padding: 20px;
+      max-width: 500px;
+      margin: 0 auto;
+      margin-bottom: 40px;
+      margin-top: 40px;
+      font-family: 'Courier New', monospace;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      background-color: lightgreen;
+      border: none;
+      padding: 10px;
+      margin: 5px 0;
+      margin-bottom: 24px;
+      box-sizing: border-box;
+      width: 100%;
+      color: black;
+      font-family: 'Courier New', monospace;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .submit-button {
+      background-color: black;
+      border: 2px solid lightgreen;
+      color: lightgreen;
+      padding: 6px 12px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 0;
+      font-weight: bold;
+      font-family: 'Courier New', monospace;
+    }
+    
+    .submit-button:hover {
+      background-color: lightgreen;
+      color: black;
+    }
+
+    .flip-horizontal {
+      transform: scaleX(-1);
+    }
+
+    .preorder-button {
+      border: 2px solid lightgreen;
+      border-radius: 0;
+      background-color: black;
+      color: lightgreen;
+      padding: 10px 20px;
+      font-size: 28px;
+      font-family: 'Courier New', monospace;
+    }
+    .preorder-button:hover {
+      background-color: lightgreen;
+      color: black;
+    }
+
+
+
